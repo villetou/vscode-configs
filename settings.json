@@ -1,0 +1,98 @@
+{
+    "files.associations": {
+        "*.script": "lua"
+    },
+    "editor.fontFamily": "'Hack', 'Source Code Pro', Consolas, 'Courier New', monospace",
+    "editor.fontSize": 15,
+    "editor.fontWeight": "400",
+    "window.zoomLevel": 1,
+    "editor.mouseWheelScrollSensitivity": 2,
+    "editor.smoothScrolling": false,
+    "editor.minimap.enabled": false,
+    "workbench.colorTheme": "Min Dark",
+    "vim.leader": " ",
+    "vim.hlsearch": true,
+    "vim.normalModeKeyBindings": [
+        // Search actions: s -> ...
+        {
+            "before": ["<leader>", "s", "s"],
+            "commands": [
+                "actions.find"
+            ]
+        },
+        {
+            "before": ["<leader>", "s", "p"],
+            "commands": [
+                "workbench.action.findInFiles"
+            ]
+        },
+        // Project actions: p -> ...
+        {
+            "before": ["<leader>", "p", "p"],
+            "commands": [
+                "workbench.action.showCommands"
+            ]
+        },
+        // File actions: f -> ...
+        {
+            "before": ["<leader>", "f", "r"],
+            "commands": [
+                "workbench.action.openRecent"
+            ]
+        },
+        {
+            "before": ["<leader>", "f", "f"],
+            "commands": [
+                "workbench.action.quickOpen"
+            ]
+        },
+        // Git actions: g -> ...
+        {
+            "before": ["<leader>", "g", "g"],
+            "commands": [
+                "workbench.scm.focus",
+                "magit.status"
+            ]
+        },
+        // Window actions: w -> ...
+        {
+            "before": ["<leader>", "w", "v"],
+            "commands": [
+                "workbench.action.splitEditor"
+            ]
+        },
+        {
+            "before": ["<leader>", "w", "s"],
+            "commands": [
+                "workbench.action.splitEditorOrthogonal"
+            ]
+        },
+        {
+            "before": ["<leader>", "w", "c"],
+            "commands": [
+                "workbench.action.closeActiveEditor"
+            ]
+        },
+        // Code actions: c -> ...
+        {
+            "before": ["<leader>", "c", "d"],
+            "commands": [
+                "editor.action.revealDefinition"
+            ]
+        },
+        {
+            "before": ["<leader>", "c", "D"],
+            "commands": [
+                "editor.action.referenceSearch.trigger"
+            ]
+        }
+    ],
+    "vim.highlightedyank.enable": true,
+    "vim.handleKeys": {
+        "<C-f>": false
+    },
+    "vim.easymotionDimBackground": false,
+    "editor.renderControlCharacters": true,
+    "workbench.iconTheme": "vs-nomo-dark",
+    "diffEditor.ignoreTrimWhitespace": false,
+}
