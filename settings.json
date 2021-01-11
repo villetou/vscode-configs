@@ -3,9 +3,8 @@
         "*.script": "lua"
     },
     "editor.fontFamily": "'Hack', 'Source Code Pro', Consolas, 'Courier New', monospace",
-    "editor.fontSize": 15,
-    "editor.fontWeight": "400",
-    "window.zoomLevel": 1,
+    "editor.fontSize": 13,
+    "window.zoomLevel": 2,
     "editor.mouseWheelScrollSensitivity": 2,
     "editor.smoothScrolling": false,
     "editor.minimap.enabled": false,
@@ -85,7 +84,19 @@
             "commands": [
                 "editor.action.referenceSearch.trigger"
             ]
-        }
+        },
+        {
+            "before": ["<leader>", "c", "F"],
+            "commands": [
+                "editor.action.formatDocument"
+            ]
+        },
+        {
+            "before": ["<leader>", "c", "f"],
+            "commands": [
+                "editor.action.formatSelection"
+            ]
+        },
     ],
     "vim.highlightedyank.enable": true,
     "vim.handleKeys": {
