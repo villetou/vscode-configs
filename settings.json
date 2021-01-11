@@ -29,7 +29,7 @@
         {
             "before": ["<leader>", "p", "p"],
             "commands": [
-                "workbench.action.showCommands"
+                "workbench.action.openRecent"
             ]
         },
         // File actions: f -> ...
@@ -49,7 +49,6 @@
         {
             "before": ["<leader>", "g", "g"],
             "commands": [
-                "workbench.scm.focus",
                 "magit.status"
             ]
         },
@@ -70,6 +69,18 @@
             "before": ["<leader>", "w", "c"],
             "commands": [
                 "workbench.action.closeActiveEditor"
+            ]
+        },
+        {
+            "before": ["<leader>", "w", "b"],
+            "commands": [
+                "workbench.action.toggleSidebarVisibility"
+            ]
+        },
+        {
+            "before": ["<leader>", "w", "a"],
+            "commands": [
+                "workbench.action.toggleActivityBarVisibility"
             ]
         },
         // Code actions: c -> ...
@@ -97,6 +108,12 @@
                 "editor.action.formatSelection"
             ]
         },
+        {
+            "before": ["<leader>", "c", "c"],
+            "commands": [
+                "workbench.action.showCommands"
+            ]
+        },
     ],
     "vim.highlightedyank.enable": true,
     "vim.handleKeys": {
@@ -107,4 +124,6 @@
     "workbench.iconTheme": "vs-nomo-dark",
     "diffEditor.ignoreTrimWhitespace": false,
     "git.pruneOnFetch": true,
+    "workbench.sideBar.location": "left",
+    "workbench.activityBar.visible": false,
 }
