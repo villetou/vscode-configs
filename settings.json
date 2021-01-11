@@ -106,4 +106,5 @@
     "editor.renderControlCharacters": true,
     "workbench.iconTheme": "vs-nomo-dark",
     "diffEditor.ignoreTrimWhitespace": false,
+    "git.pruneOnFetch": true,
 }
