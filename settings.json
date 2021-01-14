@@ -211,6 +211,7 @@
         "editor.foreground": "#DFDFDF",
         "editorPane.background": "#1f2128",
         "editorLineNumber.activeForeground": "#DFDFDF",
+        "scrollbar.shadow": "#1f2128",
         "sideBar.background": "#232730",
         "sideBar.border": "#1f2128",
         "panel.background": "#232730",
