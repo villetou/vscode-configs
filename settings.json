@@ -8,7 +8,7 @@
     "editor.mouseWheelScrollSensitivity": 2,
     "editor.smoothScrolling": false,
     "editor.minimap.enabled": false,
-    "workbench.colorTheme": "Min Dark",
+    "workbench.colorTheme": "Default Dark+",
     "vim.leader": " ",
     "vim.hlsearch": true,
     "vim.normalModeKeyBindings": [
@@ -116,6 +116,12 @@
         },
         {
             "before": ["<leader>", "o", "t"],
+            "commands": [
+                "workbench.action.terminal.toggleTerminal"
+            ]
+        },
+        {
+            "before": ["<leader>", "t", "t"],
             "commands": [
                 "workbench.action.terminal.toggleTerminal"
             ]
